@@ -1,8 +1,5 @@
 const Binance = require('node-binance-api')
-const binance = new Binance().options({
-  APIKEY: 'zg80mN8LCZVJ0vaZSaxXvqtaOystoOOBkJPbhqCE82qkfGIXmwDcJdYI5AQf6opL',
-  APISECRET: 'a17Fec1O9bdgEJd5KdFfNXaOskh0SAvt36rE5wMHe99g8SQsbQaBC9pUYqC6faBq'
-})
+const binance = new Binance()
 // testnet api key, should ofc be in a env file
 
 // future feature...
